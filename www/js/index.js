@@ -54,14 +54,8 @@ ref.addEventListener('loadstart', function(event) { alert(event.url); });
 }
 
 function geo()
-{
-	var ref = window.open('https://whereamirightnow.com', '_blank', 'location=yes');
-	ref.addEventListener('loadstart', function(event) { alert(event.url); });
-    };
-
-    // onError Callback receives a PositionError object
-    //
-function onError(error) {
+{var ref = window.open('http://ctrlq.org/maps/where/', '_blank', 'location=yes');
+ref.addEventListener('loadstart', function(event) { alert(event.url); });{
    alert('code: '    + error.code    + '\n' +
        'message: ' + error.message + '\n');
     }
