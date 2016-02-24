@@ -54,7 +54,7 @@ ref.addEventListener('loadstart', function(event) { alert(event.url); });
 }
 
 function geo()
-{var ref = window.open('http://ctrlq.org/maps/where/', '_blank', 'location=yes');
+{var ref = window.open('http://www.where-am-i.net','_blank', 'location=yes');
 ref.addEventListener('loadstart', function(event) { alert(event.url); });{
    alert('code: '    + error.code    + '\n' +
        'message: ' + error.message + '\n');
